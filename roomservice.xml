@@ -6,4 +6,7 @@
   <project name="TheMuppets/proprietary_vendor_samsung_a71" path="vendor/samsung/a71" remote="github" revision="lineage-21" />
   <project name="TheMuppets/proprietary_vendor_samsung_a71-common" path="vendor/samsung/a71-common" remote="github" revision="lineage-21" />
   <project name="LineageOS/android_hardware_samsung" path="hardware/samsung" remote="github" revision="lineage-21" />
+  <project name="AOSPA/hardware_qcom_display" path="hardware/qcom/display" remote="github" revision="uvite-855" />
+  <project name="AOSPA/hardware_qcom_media" path="hardware/qcom/media" remote="github" revision="uvite-855" />
+  <project name="AOSPA/hardware_qcom_audio" path="vendor/qcom/opensource/audio-hal/primary-hal" remote="github" revision="uvite-855" />
 </manifest>
