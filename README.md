@@ -1,16 +1,16 @@
-Derpfest for Samsung Galaxy A71
+AOSPA for Samsung Galaxy A71
 ------------------------------------
 
 Create directories
 ```bash
-mkdir evox
-cd evox
+mkdir aospa
+cd aospa
 ```
 
 Init the base manifest
 
 ```bash
-repo init -u https://github.com/Evolution-X/manifest -b udc --git-lfs --depth=1
+repo init -u https://github.com/AOSPA/manifest -b uvite --depth=1
 cd .repo 
 git clone https://github.com/eun0115/local_manifests
 cd ..
@@ -18,14 +18,12 @@ cd ..
 
 Then sync up with this command:
 ```bash
-repo sync -c --force-sync --optimized-fetch --no-tags --no-clone-bundle --prune -j$(nproc --all)
+repo sync --current-branch --no-tags -j4
 ```
 -------------
  
 _Building from source_
 ---------------
 ```bash
-. build/envsetup.sh
-lunch lineage_a71-userdebug
-m evolution -j$(nproc --all)
+./rom-build.sh a71
 ```
