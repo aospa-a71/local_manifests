@@ -12,7 +12,7 @@ Init the base manifest
 ```bash
 repo init -u https://github.com/AOSPA/manifest -b uvite --depth=1
 cd .repo 
-git clone https://github.com/eun0115/local_manifests
+git clone https://github.com/aospa-a71/local_manifests
 cd ..
 ```
 
